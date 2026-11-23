@@ -7,7 +7,10 @@ The word is the whole entry: one word, 1-24 UTF-8 characters, written to
 
 from pathlib import Path
 
-WORD = "sonder"
+WORD = "borborygmus"  # proxy-judge winner: mean 0.867 vs anchors, wins 3/3
+# (beat "thing" 1.00, "serendipity" 0.85, "petrichor" 0.75 — the strongest
+# entry in the field so far). A stomach rumble: surprising, vivid, funny
+# sound, unmistakably chosen rather than generic.
 
 
 def main() -> None:
